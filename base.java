@@ -27,6 +27,7 @@ public class base {
 
             for(int j = 0; j < m[i].length; j++){
                 System.out.print(m[i][j].getPrecio() + "  ");
+                System.out.println(m[i][j].getNumero() + "  ");
             }
 
             System.out.println();
